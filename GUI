@@ -1,0 +1,9 @@
+#Learning GUI in Python
+
+import tkinter
+
+def main():
+  main_window = tkinter.TK()
+  tkinter.mainloop()
+main() 
+  

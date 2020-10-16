@@ -1,0 +1,13 @@
+#create a dice rolling simulator
+
+import tkinter
+from PIL import Image, ImageTk
+import random
+
+#top-level widget which represents the main window of an application
+root = tkinter.Tk()
+root.geometry('400X400')
+root.title('Roll the Dice')
+
+
+root.mainloop()

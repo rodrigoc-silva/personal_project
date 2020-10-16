@@ -4,7 +4,13 @@ import tkinter
 
 class MyGUI:
   def __init__(self):
+    # main window
     self.main_window = tkinter.Tk()
+    # label widget
+    self.label = tkinter.Label(self.main_window, text='Hello World!')
+    # call the label
+    self.label.pack()
+    # tkinter main loop
     tkinter.mainloop()
 my_gui = MyGUI()   
 

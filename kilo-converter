@@ -1,0 +1,19 @@
+# this program converts distance in kilometers to miles
+# this program uses GUI
+
+import tinkter
+from tkinter import messagebox
+
+class KiloConverterGUI:
+  def__init__(self):
+    
+    # create main window
+    self.main_window = tkinter.Tk()
+    
+    # create two frames
+    self.top_frame = tkinter.Frame(self.main_window)
+    self.bottom_frame = tkinter.Frame(sel.main_window)
+    
+    # create widgets for the top frame
+    self.prompt_label = tkinter.Label(self.top_frame, text='Enter the distancein kilometers:')
+    self.kilo_entry = tkinter.Entry(self.top_frame, width=10)

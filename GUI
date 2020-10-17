@@ -20,8 +20,8 @@ class MyGUI:
         self.quit_button = tkinter.Button(self.main_window, text='Quit', command=self.main_window.destroy)
    
         # call the label
-        self.label.pack(side='left')
-        self.label2.pack(side='right')
+        self.label.pack(side='top')
+        self.label2.pack(side='top')
     
         # pack the buttons
         self.my_button.pack()
